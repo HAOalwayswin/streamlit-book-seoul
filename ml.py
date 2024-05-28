@@ -139,7 +139,7 @@ def reportMain(total_df):
 def run_ml_home(total_df):
     st.markdown("### 기계학습 예측 개요 \n"
                 "기계학습 예측 페이지 입니다."
-                "사용한 알고리즘 : metad의 prophet")
+                "사용한 알고리즘 : meta의 prophet")
     
     selected = option_menu(None, ['Home', '주거형태별', '자치구역별', '보고서'],
                            icons=['house', 'bar-chart', 'file-spreadsheet', 'map'],
