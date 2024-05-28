@@ -14,7 +14,7 @@ statsmodels
 geopandas
 folium
 xmltodict
-stremlit-option-menu
+streamlit-option-menu
 millfy
 pingouin
 jupyterlab
