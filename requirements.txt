@@ -15,6 +15,6 @@ geopandas
 folium
 xmltodict
 streamlit-option-menu
-millfy
+millify
 pingouin
 jupyterlab
