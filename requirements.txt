@@ -3,7 +3,7 @@ holidays==0.24
 
 # 시계열 예측
 prophet==1.1.2           # cmdstanpy 기반 (Python 3.9~3.10 안정)
-sktime==0.24.1           # sktime 0.24+ 부터 Python 3.10 호환
+sktime                   # sktime 0.24+ 부터 Python 3.10 호환
 
 # 머신러닝 및 통계
 numpy==1.26.4
