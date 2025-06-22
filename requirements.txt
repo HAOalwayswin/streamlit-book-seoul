@@ -1,21 +1,36 @@
+# 날짜 및 휴일 관련
 holidays==0.24
-prophet==1.1.2
-numpy
-sktime
-pmdarima
-pandas
-matplotlib
-seaborn
-plotly
-scikit-learn
-streamlit
-yfinance
-lightgbm
-statsmodels
-geopandas
-folium
-xmltodict
-streamlit-option-menu
-millify
-pingouin
-jupyterlab
+
+# 시계열 예측
+prophet==1.1.2           # cmdstanpy 기반 (Python 3.9~3.10 안정)
+sktime==0.24.1           # sktime 0.24+ 부터 Python 3.10 호환
+
+# 머신러닝 및 통계
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+statsmodels==0.14.1
+pmdarima==2.0.4          # 최신 scikit-learn과 호환
+
+# 시각화
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==6.1.0
+streamlit==1.33.0
+
+# 웹 기반 대시보드 구성
+streamlit-option-menu==0.3.6
+lightgbm==4.1.0
+
+# 지리정보 및 지도 시각화
+geopandas==0.14.3
+folium==0.16.0
+
+# 보조 유틸
+yfinance==0.2.37
+pingouin==0.5.4
+millify==0.1.1
+xmltodict==0.13.0
+
+# 개발 편의 도구
+jupyterlab==4.0.10
